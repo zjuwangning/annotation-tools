@@ -1,0 +1,15 @@
+
+.icon-area {
+    margin-top: 0.3vw;
+    margin-left: 0.3vw;
+    width: 2.4vw;
+    height: 2.4vw;
+    cursor: pointer;
+}
+
+.icon-area:hover {
+    background-color: gray;
+}
+
+.annotation-icon {
+}

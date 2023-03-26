@@ -14,7 +14,7 @@ export default class DrawHandler {
 
 	drawBox = (container, onDrawDone) => {
 		this.drawInstance = container.rect().draw();
-		this.drawInstance.draggable()
+		this.drawInstance.draggable().selectize().resize()
 			.on('drawstart', (event) => {
 				console.log('event', event);
 			})
